@@ -1,0 +1,11 @@
+$fvar: 30px;
+$fcolor: red;
+
+$color: rgba($fcolor, 0.3);
+
+.footer{
+
+  width: if($fvar < 100px, $fvar, 100%);
+
+  background-color: $color;
+}

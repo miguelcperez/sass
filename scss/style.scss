@@ -1,0 +1,14 @@
+@import "botones";
+@import "variables";
+@import "mixins";
+@import "funciones";
+
+
+#box {
+
+  @include box($box-bg);
+
+  h1 {
+    color: $title;
+  }
+}
